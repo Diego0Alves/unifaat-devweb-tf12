@@ -6,13 +6,13 @@ CREATE TABLE pessoas (
 );
 
 INSERT INTO pessoas (nome) VALUES
+('Gabriel Alves'),
 ('Ana Oliveira'),
 ('Bruno Souza'),
-('Carlos Lima'),
-('Daniela Martins'),
 ('Eduardo Ribeiro'),
-('Fernanda Castro'),
-('Gabriel Alves'),
-('Helena Dias'),
 ('Igor Mendes'),
-('Juliana Rocha');
+('Daniela Martins'),
+('Fernanda Castro'),
+('Helena Dias'),
+('Juliana Rocha'),
+('Carlos Lima');
