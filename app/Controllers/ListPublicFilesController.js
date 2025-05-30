@@ -1,7 +1,12 @@
 import { join } from 'path';
 import { readdir } from 'fs';
+import TodoModel from '../Models/TodoModel.js';
 
 export default async (request, response) => {
+
+    const ORDER_CAMPOS = ['id', 'updated', 'created_at'];
+
+    const ORDER_DIRECAO = ['desc', 'asc'];
 
     const dirPath = join(CONSTANTS.DIR, 'public');
 
